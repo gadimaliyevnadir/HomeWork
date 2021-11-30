@@ -1,0 +1,13 @@
+body {
+    background-image: url(aa.jpg) ;
+    background-size: 100%;
+     
+}
+.login {
+    background-color: green;
+    text-align: center;
+}
+.rh {
+    color: chartreuse;
+    text-align: center;
+}
