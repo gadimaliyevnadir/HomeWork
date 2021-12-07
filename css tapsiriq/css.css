@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    text-decoration: none;
 }
 body {
     background-image: url(image/back.jpg);
@@ -22,11 +23,11 @@ body {
 .imgbox {
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
 img {
     width: 270px;
-    height: 270px;
+    height: 270px;  
 }
 .li1 {
     margin-top: 15px;
