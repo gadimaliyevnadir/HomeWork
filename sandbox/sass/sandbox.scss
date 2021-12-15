@@ -9,7 +9,7 @@ body{
 header{
     width: 100%;
     height: 100px;
-    background-color: rgba(255, 215, 160, 255);
+    background-color: rgba(255, 215, 160, 0.25);
     display: flex;
     position: sticky;
     top: 0;
@@ -115,6 +115,7 @@ header{
     align-items: center;
     justify-content: space-around;
     .top-text{
+        margin-top: 30px;
         width: 40%;
         display: flex;
         flex-direction: column;
@@ -132,22 +133,22 @@ header{
             background-color: #fff;
             text-align: center;
             .svg1{
-                width: 200px;
+                width: 110px;
                 height: 170px;
                 align-items: center;
             }
             .svg2{
-                width: 150px;
+                width: 110px;
                 height: 170px;
                 align-items: center;
             }
             .svg3{
-                width: 150px;
+                width: 110px;
                 height: 170px;
                 align-items: center;
             }
             .svg4{
-                width: 150px;
+                width: 110px;
                 height: 170px;
                 align-items: center;
             }

@@ -12,7 +12,7 @@ body {
 header {
   width: 100%;
   height: 100px;
-  background-color: #ffd7a0;
+  background-color: rgba(255, 215, 160, 0.25);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,6 +180,7 @@ header nav ul li a:hover {
 }
 
 .section2 .top-text {
+  margin-top: 30px;
   width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -213,7 +214,7 @@ header nav ul li a:hover {
 }
 
 .section2 .main-card .card .svg1 {
-  width: 200px;
+  width: 110px;
   height: 170px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -221,7 +222,7 @@ header nav ul li a:hover {
 }
 
 .section2 .main-card .card .svg2 {
-  width: 150px;
+  width: 110px;
   height: 170px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -229,7 +230,7 @@ header nav ul li a:hover {
 }
 
 .section2 .main-card .card .svg3 {
-  width: 150px;
+  width: 110px;
   height: 170px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -237,7 +238,7 @@ header nav ul li a:hover {
 }
 
 .section2 .main-card .card .svg4 {
-  width: 150px;
+  width: 110px;
   height: 170px;
   -webkit-box-align: center;
       -ms-flex-align: center;

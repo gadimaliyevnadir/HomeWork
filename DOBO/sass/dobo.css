@@ -1,0 +1,295 @@
+body {
+  background-color: #0B0A08;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: #0B0A08;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 277px;
+  height: 80px;
+}
+
+header .logo img {
+  width: 135px !important;
+  height: 45px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header nav ul {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+header nav ul li .aa {
+  text-decoration: none;
+  -webkit-transition: border 1s, color 1s;
+  transition: border 1s, color 1s;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #40a000;
+  font-family: sans-serif;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+header nav ul li .aa:hover {
+  border: 1px solid green;
+  color: green;
+}
+
+#one {
+  width: 100%;
+  height: 600px;
+  background-image: url(../image/bg-image-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#one h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #d4cfcf;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+}
+
+#one h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 70px;
+}
+
+#one h3 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #d4cfcf;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+}
+
+#one nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#one nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#one nav ul li {
+  list-style: none;
+}
+
+#one nav ul li a {
+  background-color: aliceblue;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  -webkit-transition: border 1s, color 1s;
+  transition: border 1s, color 1s;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #720101;
+  font-family: sans-serif;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+#one nav ul li a:hover {
+  border: 1px solid green;
+  color: #052d31;
+}
+
+.main {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 300px;
+}
+
+.main .main-card {
+  width: 300px;
+  height: 250px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.main .main-card .icon1 {
+  font-size: 100px;
+}
+
+.main .main-card .icon2 {
+  font-size: 100px;
+}
+
+.main .main-card .icon3 {
+  font-size: 100px;
+}
+
+#three {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#three .esas {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: aliceblue;
+}
+
+#three .esas h3 {
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+}
+
+#three .esas h1 {
+  font-size: 50px;
+}
+
+#three .esas p {
+  font-size: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=dobo.css.map */
