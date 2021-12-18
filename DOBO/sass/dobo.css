@@ -305,6 +305,7 @@ body {
 #three .esas div h3 {
   text-align: center;
   font-size: 35px;
+  background: linear-gradient(95deg, #059dff 15%, #6549d5 45%, #e33fa1 75%, #fb5343 100%);
 }
 
 #three .esas div h1 {
@@ -542,7 +543,8 @@ body {
 #five .basliq div h3 {
   text-align: center;
   font-size: 30px;
-  color: #40a000;
+  color: wheat;
+  background: linear-gradient(95deg, #059dff 15%, #6549d5 45%, #e33fa1 75%, #fb5343 100%);
 }
 
 #five .basliq div h1 {
@@ -833,7 +835,7 @@ body {
   text-align: center;
   font-size: 30px;
   color: #1d0d7a;
-  background-color: grey;
+  background: linear-gradient(95deg, #059dff 15%, #6549d5 45%, #e33fa1 75%, #fb5343 100%);
 }
 
 #nine .basliq div h1 {
@@ -935,7 +937,7 @@ body {
   text-align: center;
   font-size: 30px;
   color: #1d0d7a;
-  background-color: grey;
+  background: linear-gradient(95deg, #059dff 15%, #6549d5 45%, #e33fa1 75%, #fb5343 100%);
 }
 
 #eleven .srazu div h1 {
@@ -1058,7 +1060,7 @@ body {
 #thirteen .rbox .aer button {
   font-size: 30px;
   border-radius: 10px;
-  background-color: hotpink;
+  background: linear-gradient(95deg, #059dff 15%, #6549d5 45%, #e33fa1 75%, #fb5343 100%);
 }
 
 #fourteen {
@@ -1203,7 +1205,7 @@ body {
 
 #fourteen .test button {
   font-size: 20px;
-  background-color: purple;
+  background: linear-gradient(95deg, #059dff 15%, #6549d5 45%, #e33fa1 75%, #fb5343 100%);
   border-radius: 30px;
 }
 
