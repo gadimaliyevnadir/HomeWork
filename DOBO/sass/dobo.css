@@ -1,20 +1,34 @@
 body {
-  background-color: #0B0A08;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(#323435), to(black));
+  background-image: linear-gradient(black, #323435, black);
 }
 
-header {
+.contenier {
   width: 100%;
-  height: 90px;
-  background-color: #0B0A08;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0B0A08;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 
-header .logo {
+.contenier header {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contenier header .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,7 +42,7 @@ header .logo {
   height: 80px;
 }
 
-header .logo img {
+.contenier header .logo img {
   width: 135px !important;
   height: 45px !important;
   display: -webkit-box;
@@ -42,7 +56,7 @@ header .logo img {
           justify-content: center;
 }
 
-header nav {
+.contenier header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,12 +64,12 @@ header nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-header nav ul {
+.contenier header nav ul {
   width: 100%;
   height: 100px;
   display: -webkit-box;
@@ -68,15 +82,15 @@ header nav ul {
       justify-content: space-around;
 }
 
-header nav ul li {
+.contenier header nav ul li {
   list-style: none;
 }
 
-header nav ul li a {
+.contenier header nav ul li a {
   text-decoration: none;
 }
 
-header nav ul li .aa {
+.contenier header nav ul li .aa {
   text-decoration: none;
   -webkit-transition: border 1s, color 1s;
   transition: border 1s, color 1s;
@@ -89,7 +103,7 @@ header nav ul li .aa {
   border-radius: 20px;
 }
 
-header nav ul li .aa:hover {
+.contenier header nav ul li .aa:hover {
   border: 1px solid green;
   color: green;
 }
@@ -191,7 +205,7 @@ header nav ul li .aa:hover {
 
 #one nav ul li a {
   background-color: aliceblue;
-  margin: 5px;
+  margin-right: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,14 +255,17 @@ header nav ul li .aa:hover {
 
 .main .main-card .icon1 {
   font-size: 100px;
+  color: red;
 }
 
 .main .main-card .icon2 {
   font-size: 100px;
+  color: #40a000;
 }
 
 .main .main-card .icon3 {
   font-size: 100px;
+  color: blue;
 }
 
 #three {
@@ -265,7 +282,7 @@ header nav ul li .aa:hover {
 }
 
 #three .esas {
-  width: 40%;
+  width: 43%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,18 +295,591 @@ header nav ul li .aa:hover {
   color: aliceblue;
 }
 
-#three .esas h3 {
+#three .esas div h3 {
   text-align: center;
-  font-size: 30px;
-  color: blue;
+  font-size: 35px;
 }
 
-#three .esas h1 {
+#three .esas div h1 {
+  font-size: 55px;
+}
+
+#three .esas div p {
+  font-size: 20px;
+  text-align: center;
+}
+
+#three .esas nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#three .esas nav ul {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#three .esas nav ul .all {
+  color: brown;
+  background-color: #7a7aff;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+#three .esas nav ul li {
+  list-style: none;
+}
+
+#three .esas nav ul li a {
+  text-decoration: none;
+}
+
+#four {
+  width: 100%;
+  height: 1100px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#four .esasbox {
+  width: 80%;
+  height: 700px;
+}
+
+#four .esasbox .sekil1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#four .esasbox .sekil1 .image1 {
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#four .esasbox .sekil1 .image1 img {
+  width: 100%;
+  height: 200px;
+}
+
+#four .esasbox .text-top1 {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#four .esasbox .text-top1 .text1 {
+  color: blanchedalmond;
+}
+
+#four .esasbox .sekil2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#four .esasbox .sekil2 .image2 {
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 10px;
+}
+
+#four .esasbox .sekil2 .image2 img {
+  width: 100%;
+  height: 100%;
+}
+
+#four .esasbox .text-top2 {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#four .esasbox .text-top2 .text2 {
+  color: blanchedalmond;
+}
+
+#four .esasbox .loadmore {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#four .esasbox .loadmore button {
+  border: 2px;
+  font-size: 29px;
+  background-color: #976767;
+  border-radius: 10px;
+}
+
+#five {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#five .basliq {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: aliceblue;
+}
+
+#five .basliq div h3 {
+  text-align: center;
+  font-size: 30px;
+  color: #40a000;
+}
+
+#five .basliq div h1 {
   font-size: 50px;
 }
 
-#three .esas p {
-  font-size: 20px;
+#five .basliq div p {
+  width: 95%;
+  font-size: 22px;
   text-align: center;
+  color: grey;
+}
+
+#six {
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#six .perfect {
+  width: 70%;
+  height: 600px;
+  background-color: #1E1E1E;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#six .perfect .sozler {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 45%;
+  margin-bottom: 150px;
+}
+
+#six .perfect .sozler p {
+  margin-bottom: 80px;
+  color: grey;
+}
+
+#six .perfect .sozler h1 {
+  width: 60%;
+  font-size: 30px;
+  color: honeydew;
+}
+
+#six .perfect .sozler h4 {
+  color: grey;
+}
+
+#six .perfect .sozler .cedvel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px;
+}
+
+#six .perfect .sozler .cedvel h2 {
+  width: 80%;
+  font-size: 20px;
+  color: honeydew;
+}
+
+#six .perfect .sozler .aa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#six .perfect .sozler .aa button {
+  font-size: 20px;
+  border-radius: 20px;
+  margin-top: 25px;
+  background-color: sandybrown;
+}
+
+#six .perfect .ela {
+  width: 45%;
+}
+
+#six .perfect .ela img {
+  width: 100%;
+}
+
+#seven {
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#seven .super {
+  width: 70%;
+  height: 600px;
+  background-color: #1E1E1E;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#seven .super .herifler {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 45%;
+  margin-bottom: 150px;
+}
+
+#seven .super .herifler p {
+  margin-bottom: 50px;
+  color: grey;
+}
+
+#seven .super .herifler h1 {
+  width: 60%;
+  font-size: 30px;
+  color: honeydew;
+}
+
+#seven .super .herifler h4 {
+  color: grey;
+}
+
+#seven .super .herifler .letife {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px;
+}
+
+#seven .super .herifler .letife h2 {
+  width: 80%;
+  font-size: 20px;
+  color: honeydew;
+}
+
+#seven .super .herifler .bb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#seven .super .herifler .bb button {
+  font-size: 20px;
+  border-radius: 20px;
+  margin-top: 25px;
+  background-color: sandybrown;
+}
+
+#seven .super .ala {
+  width: 45%;
+}
+
+#seven .super .ala img {
+  width: 100%;
+}
+
+#eight {
+  width: 100%;
+  height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#eight .imageebox {
+  width: 80%;
+  height: 550px;
+  background-image: url(../image/bg-image-4.jpg);
+}
+
+#eight .imageebox button {
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  border-radius: 50%;
+  background-color: purple;
+  margin-top: 400px;
+  margin-left: 40px;
+}
+
+#eight .imageebox h1 {
+  width: 35%;
+  color: white;
+  margin-left: 40px;
+}
+
+#nine {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#nine .basliq {
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: aliceblue;
+}
+
+#nine .basliq div h3 {
+  text-align: center;
+  font-size: 30px;
+  color: #1d0d7a;
+  background-color: lightslategray;
+}
+
+#nine .basliq div h1 {
+  font-size: 50px;
+  margin-left: 80px;
+}
+
+#nine .basliq div p {
+  width: 90%;
+  font-size: 22px;
+  text-align: center;
+  color: grey;
+  margin-left: 30px;
+}
+
+#ten {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+
+#ten .biriki {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#ten .biriki .text4 {
+  width: 45%;
+}
+
+#ten .biriki .text4 h2 {
+  color: grey;
+}
+
+#ten .biriki .text4 h1 {
+  color: grey;
+}
+
+#ten .biriki .text4 h3 {
+  color: honeydew;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+#ten .biriki div {
+  width: 45%;
+}
+
+#ten .biriki div img {
+  width: 100%;
+  border-radius: 50%;
+  border: 10px solid;
+  border-color: hotpink;
 }
 /*# sourceMappingURL=dobo.css.map */
