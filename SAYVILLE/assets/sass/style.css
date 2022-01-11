@@ -1,0 +1,183 @@
+header {
+  width: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+
+header nav ul {
+  background-color: white;
+  width: 100%;
+  color: black;
+  gap: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section {
+  width: 100%;
+  height: 200px;
+}
+
+section a {
+  color: black;
+  text-decoration: none;
+}
+
+section li {
+  list-style: none;
+}
+
+section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+}
+
+section .delivery {
+  border-right: 1px solid;
+  color: grey;
+  height: 30px;
+}
+
+section .sayville {
+  border-right: 1px solid;
+  border-color: grey;
+  height: 30px;
+}
+
+section .img1 {
+  height: 516px;
+}
+
+section .carder {
+  background-color: #eeeded;
+}
+
+section .carder h1 {
+  font-family: cursive;
+}
+
+section .carder h5 {
+  text-align: center;
+  color: grey;
+}
+
+section .carder input {
+  background-color: indianred;
+  font-size: 20px;
+}
+
+section .carousel-item {
+  background-color: #ccccb4;
+}
+
+section h4 {
+  text-align: center;
+  margin-top: 400px;
+}
+
+section .container {
+  margin-top: 300px;
+  background-color: #ddd9d9;
+  height: 200px;
+}
+
+section nav {
+  background-color: #ddd9d9;
+}
+
+section nav input {
+  font-size: 25px;
+  color: grey;
+}
+
+section nav button {
+  background-color: chocolate;
+}
+
+section nav a {
+  font-size: 20px;
+  color: black;
+}
+
+section nav ul {
+  background-color: #ddd9d9;
+}
+
+section nav ul li {
+  background-color: #ddd9d9;
+}
+
+section h6 {
+  text-align: center;
+  margin-top: 150px;
+  color: black;
+}
+
+.slan {
+  height: 300px;
+  margin-bottom: 200px;
+}
+
+.slan .a1 {
+  margin-left: 100px;
+  text-align: center;
+}
+
+.slan img {
+  width: 23%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slan .stiker ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
