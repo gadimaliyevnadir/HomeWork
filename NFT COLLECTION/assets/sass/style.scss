@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+    
+    .nadir{
+        li{
+            a{
+                color: cornsilk;
+            }
+        }
+    }
+    .adan{
+        color: black;
+        background-color: rgb(240, 203, 155);
+        border-radius: 8px;
+    }
+}
+section{
+    .card{
+        width: 12%;
+        height: 190px;
+        border-radius: 7px;
+        .at{
+            color: black;
+        }
+        h5{
+            color: blanchedalmond;
+        }
+        img{
+            width: 100%;
+            height: 87px;
+        }
+    }
+    .aman{
+        margin-left: 115px;
+        background-color: black;
+        text-align: start;
+        padding-top: 100px;
+        h4{
+            color: honeydew;
+        }
+    }
+    .alq{
+        margin-top: 100px;
+        color: whitesmoke;
+    }
+    .rey{
+        z-index: 1;
+        margin-top: 250px;
+        width: 60%;
+        h1{
+            color: white;
+        }
+        h5{
+            color: rgb(199, 196, 196);
+        }
+    }
+    .tara{
+        width: 40%;
+        margin-top: 50px;
+    }
+    .ar{
+        color: black;
+    }
+    .db{
+        color: whitesmoke;
+        background-color: black;
+        border: 1px solid;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .nd{
+        margin-left: 5px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 140px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+    }
+    .era{
+        width: 70%;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .nado{
+        margin-top: 200px;
+        width: 30%;
+        text-align: center;
+        h1{
+            color: whitesmoke;
+        }
+        button{
+            border-radius: 10px;
+        }
+    }
+    @media (max-width: 700px) {
+        .paw{
+            flex-direction: column;
+            .card{
+                width: 100%;
+                height: 250px;
+                img{
+                    height: 150px;
+                }
+            }
+        }
+        .para{
+            flex-direction: column;
+        }
+        .rrp{
+            flex-direction: column;
+        }
+        .era{
+            margin-left: 150px;
+        }
+    }
+    input{
+        border-radius: 360px;
+        background-color: black;
+        width: 15%;
+    }
+    .al{
+        width: 80%;
+        border-radius: 20px;
+        background-color: whitesmoke;
+    }
+}
