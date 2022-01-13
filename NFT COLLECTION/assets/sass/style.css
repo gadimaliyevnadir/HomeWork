@@ -16,6 +16,22 @@ header .adan {
   border-radius: 8px;
 }
 
+section .alav {
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+section .alav h1 {
+  color: blanchedalmond;
+  text-align: center;
+}
+
+section .alav h5 {
+  text-align: center;
+  color: #b6afa4;
+}
+
 section .card {
   width: 12%;
   height: 190px;
@@ -168,5 +184,30 @@ section .al {
   width: 80%;
   border-radius: 20px;
   background-color: whitesmoke;
+}
+
+footer {
+  width: 80%;
+  height: 150px;
+}
+
+footer .hh {
+  height: 60px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+footer .hh img {
+  width: 130px;
+  height: 30px;
+  margin-left: 50px;
+}
+
+footer .fidan li a {
+  color: black;
+}
+
+footer .nadir li a {
+  color: #b4b4b4;
 }
 /*# sourceMappingURL=style.css.map */

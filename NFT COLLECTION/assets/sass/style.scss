@@ -18,6 +18,19 @@ header{
     }
 }
 section{
+    .alav{
+        width: 40%;
+        margin-top: 50px;
+        margin-left: 30px;
+        h1{
+            color: blanchedalmond;
+            text-align: center;
+        }
+        h5{
+            text-align: center;
+            color: rgb(182, 175, 164);
+        }
+    }
     .card{
         width: 12%;
         height: 190px;
@@ -129,5 +142,35 @@ section{
         width: 80%;
         border-radius: 20px;
         background-color: whitesmoke;
+    }
+}
+footer{
+    
+    width: 80%;
+    
+    height: 150px;
+    .hh{
+        height: 60px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        img{
+            width: 130px;
+            height: 30px;
+            margin-left: 50px;
+        }
+    }
+    .fidan{
+        li{
+            a{
+                color: black;
+            }
+        }
+    }
+    .nadir{
+        li{
+            a{
+              color: rgb(180, 180, 180);
+            }
+        }
     }
 }
