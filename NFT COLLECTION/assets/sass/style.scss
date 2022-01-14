@@ -113,6 +113,9 @@ section{
         }
     }
     @media (max-width: 700px) {
+        .ajac{
+            width: 100%;
+        }
         .paw{
             flex-direction: column;
             .card{
@@ -145,10 +148,9 @@ section{
     }
 }
 footer{
-    
-    width: 80%;
-    
-    height: 150px;
+
+     width: 80%;
+     height: 150px;
     .hh{
         height: 60px;
         background-color: whitesmoke;
@@ -162,7 +164,7 @@ footer{
     .fidan{
         li{
             a{
-                color: black;
+                color: rgb(180, 180, 180);
             }
         }
     }
@@ -171,6 +173,11 @@ footer{
             a{
               color: rgb(180, 180, 180);
             }
+        }
+    }
+    @media (max-width: 700px) {
+        .hh{
+            flex-direction: column;
         }
     }
 }

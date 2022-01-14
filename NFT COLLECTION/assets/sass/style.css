@@ -144,6 +144,9 @@ section .nado button {
 }
 
 @media (max-width: 700px) {
+  section .ajac {
+    width: 100%;
+  }
   section .paw {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -204,10 +207,19 @@ footer .hh img {
 }
 
 footer .fidan li a {
-  color: black;
+  color: #b4b4b4;
 }
 
 footer .nadir li a {
   color: #b4b4b4;
+}
+
+@media (max-width: 700px) {
+  footer .hh {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */
