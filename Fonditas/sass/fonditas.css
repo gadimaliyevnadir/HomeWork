@@ -1,0 +1,102 @@
+body {
+  background-image: url(../img/kir.png);
+  background-size: 1370px;
+  background-repeat: no-repeat;
+}
+
+header .hy {
+  color: #f5f5f5;
+  font-size: 50px;
+  font-family: monospace,sans-serif;
+  margin-left: 10px;
+}
+
+header .nadir li a {
+  color: whitesmoke;
+}
+
+header .adan {
+  border-radius: 10px;
+  border-color: whitesmoke;
+  color: whitesmoke;
+}
+
+header .rare {
+  margin-bottom: 25px;
+  border: 1px solid;
+  color: whitesmoke;
+  background-color: #ff7e4f;
+  border-radius: 180px;
+  border-style: none;
+  font-size: 18px;
+}
+
+section .jer {
+  width: 40%;
+  height: 550px;
+  margin-top: 60px;
+  border: none;
+  background-color: #5EAE53;
+}
+
+section .jer .emoji {
+  background-color: #5EAE53;
+  border: none;
+  border-style: none;
+  margin-top: 100px;
+}
+
+section .jer .emoji ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #5EAE53;
+  gap: 10px;
+}
+
+section .jer .emoji ul li {
+  list-style: none;
+}
+
+section .jer .emoji ul li i {
+  color: #EB8E78;
+  font-size: 20px;
+}
+
+section .jer h5 {
+  font-family: cursive;
+  color: #F6B76C;
+}
+
+section .jer p {
+  color: #dad6d6;
+  font-size: 45px;
+}
+
+section .jer .d {
+  background-color: #5EAE53;
+  border-color: #5EAE53;
+}
+
+section .jer button {
+  border: 1px;
+  border-radius: 10px;
+  width: 290px;
+  margin-top: 10px;
+  padding-right: 0;
+}
+
+section .jer button input {
+  margin-left: 45px;
+  background-color: #EB8E78;
+  border: 1px;
+  border-style: none;
+  border-radius: 7px;
+}
+/*# sourceMappingURL=fonditas.css.map */
