@@ -145,7 +145,7 @@ section .nado button {
 
 @media (max-width: 700px) {
   section .ajac {
-    width: 100%;
+    width: 250px;
   }
   section .paw {
     -webkit-box-orient: vertical;
@@ -207,7 +207,7 @@ footer .hh img {
 }
 
 footer .fidan li a {
-  color: #b4b4b4;
+  color: green;
 }
 
 footer .nadir li a {
