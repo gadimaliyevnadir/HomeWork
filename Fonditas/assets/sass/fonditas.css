@@ -1,0 +1,402 @@
+body {
+  background-image: url(../img/kir.png);
+  background-size: 1370px;
+  background-repeat: no-repeat;
+}
+
+header form li {
+  list-style: none;
+}
+
+header .hy {
+  color: #f5f5f5;
+  font-size: 50px;
+  font-family: monospace,sans-serif;
+  margin-left: 10px;
+}
+
+header .nadir li {
+  list-style: none;
+}
+
+header .nadir li a {
+  color: whitesmoke;
+}
+
+header .adan {
+  border-radius: 10px;
+  border-color: whitesmoke;
+  color: whitesmoke;
+}
+
+header .rare {
+  border: 1px solid;
+  color: whitesmoke;
+  background-color: #ff7e4f;
+  border-radius: 180px;
+  border-style: none;
+  font-size: 18px;
+}
+
+@media (max-width: 700px) {
+  section .pas {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section .img3 {
+    width: 100%;
+  }
+  section .aoo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section .tert {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section .canavar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+section .laf {
+  width: 220px;
+}
+
+section .laf h6 {
+  color: gray;
+  padding-left: 20px;
+}
+
+section .laf .faas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .per {
+  border-style: none;
+}
+
+section .img1 {
+  width: 530px;
+  height: 350px;
+}
+
+section .carder {
+  border-style: none;
+  width: 400px;
+  height: 350px;
+}
+
+section .carder h5 {
+  border: 1px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: green;
+  width: 70px;
+  color: whitesmoke;
+}
+
+section .carder h1 {
+  font-family: cursive;
+}
+
+section .carder input {
+  background-color: indianred;
+  border-radius: 8px;
+}
+
+section .carder .ara {
+  background-color: honeydew;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+section .img2 {
+  height: 180px;
+}
+
+section .as {
+  padding-left: 100px;
+  color: #948c8c;
+}
+
+section .pas {
+  background-size: 1150px;
+  height: 400px;
+  background-image: url(../img/dd.png);
+  background-repeat: no-repeat;
+}
+
+section .pas .text {
+  padding-top: 70px;
+  margin-left: 150px;
+  width: 30%;
+  color: white;
+}
+
+section .pas .img3 {
+  width: 598px;
+}
+
+section .mal {
+  background-color: #c3c3c3;
+}
+
+section .mal sup {
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+section .mal span {
+  background-color: orange;
+}
+
+section .mal a {
+  text-decoration: none;
+  margin-left: 20px;
+  padding-left: 30px;
+  margin-top: 20px;
+  width: 70%;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px;
+  border-style: none;
+  border-radius: 180px;
+  background-color: white;
+}
+
+section .lep {
+  margin-top: 200px;
+}
+
+section .lep h5 {
+  margin-top: 50px;
+  text-align: center;
+  color: #f5f5f5;
+  border: 1px;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #5EAE53;
+  padding: 0;
+}
+
+section .lep h2 {
+  font-size: 50px;
+}
+
+section .lap {
+  margin-left: 70px;
+  border-style: none;
+}
+
+section .lap h5 {
+  width: 170px;
+  text-align: center;
+  margin-top: 50px;
+  color: #f5f5f5;
+  border: 1px;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #5EAE53;
+  padding: 0;
+}
+
+section .lap h2 {
+  font-size: 50px;
+}
+
+section .adr {
+  height: 70px;
+  margin-top: 160px;
+  padding: 0;
+  margin-left: 340px;
+  border-style: none;
+}
+
+section .dr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+section .dr h6 {
+  margin-top: 7px;
+}
+
+section .dr h5 {
+  background-color: #EB8E78;
+  border-radius: 100%;
+  color: beige;
+}
+
+section .jer {
+  width: 40%;
+  height: 550px;
+  margin-top: 60px;
+  border: none;
+  background-color: #5EAE53;
+}
+
+section .jer .emoji {
+  background-color: #5EAE53;
+  border: none;
+  border-style: none;
+  padding-top: 90px;
+}
+
+section .jer .emoji ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #5EAE53;
+  gap: 10px;
+}
+
+section .jer .emoji ul li {
+  list-style: none;
+}
+
+section .jer .emoji ul li i {
+  color: #EB8E78;
+  font-size: 20px;
+}
+
+section .jer h5 {
+  font-family: cursive;
+  color: #F6B76C;
+}
+
+section .jer p {
+  color: #dad6d6;
+  font-size: 45px;
+}
+
+section .jer .d {
+  background-color: #5EAE53;
+  border-color: #5EAE53;
+}
+
+section .jer button {
+  border: 1px;
+  border-radius: 10px;
+  width: 290px;
+  margin-top: 10px;
+  padding-right: 0;
+}
+
+section .jer button input {
+  margin-left: 45px;
+  background-color: #EB8E78;
+  border: 1px;
+  border-style: none;
+  border-radius: 7px;
+}
+
+footer {
+  background-color: #1d1d1d;
+  height: 300px;
+  width: 85%;
+  margin-left: 100px;
+  padding-bottom: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  footer .dajl {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .nara {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+footer .card {
+  background-color: #1d1d1d;
+  border-style: none;
+  padding-top: 70px;
+  padding-left: 70px;
+}
+
+footer .card .mane {
+  color: whitesmoke;
+  padding-bottom: 20px;
+}
+
+footer .card .vay {
+  color: whitesmoke;
+}
+
+footer .card .hay {
+  color: whitesmoke;
+  padding-top: 35px;
+}
+
+footer .card h2 {
+  color: whitesmoke;
+  width: 300px;
+}
+
+footer .card h1 {
+  color: whitesmoke;
+}
+
+footer .card .emoji {
+  background-color: #1d1d1d;
+  border-style: none;
+}
+
+footer .card .emoji ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 7px;
+}
+
+footer .card .emoji ul li {
+  list-style: none;
+  background-color: tomato;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=fonditas.css.map */

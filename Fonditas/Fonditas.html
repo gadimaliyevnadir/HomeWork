@@ -1,79 +1,467 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="sass/fonditas.css">
-    <title>Fonditas</title>
-  </head>
-  <body>
-    <!-- HEADER START -->
-    <header>
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container">
-          <a class="navbar-brand hy" href="#">Fonditas</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-flex align-items-center justify-content-center"
-            id="navbarSupportedContent">
-            <ul class="d-flex align-items-center justify-content-center navbar-nav nadir gap-4">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Nosatros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Fonditas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Mapa</a>
-              </li>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Inscribirse</a>
-              </li>
-            </ul>
-          </div>
-          <form class="d-flex align-items-center justify-content-end">
-            <button class="btn btn-outline-success d-flex align-items-center justify-content-center adan"
-              type="submit">Inicia Sesion</button>
-              <li class="nav-item active">
-                <a class="nav-link" href="#"><i class="fas fa-shopping-cart rare"></i></a>
-              </li>
-          </form>
-        </div>
-      </nav>
-    </header>
-    <!-- HEADER END -->
-    <!-- SECTION 1 START -->
-    <section>
+  <link rel="stylesheet" href="assets/sass/fonditas.css">
+  <title>Fonditas</title>
+</head>
+
+<body>
+  <!-- HEADER START -->
+  <header>
+    <nav class="navbar navbar-expand-lg ">
       <div class="container">
-        <div class="card jer">
-          <div class="card-body">
-            <h5 class="card-title">De tu fonda favorita</h5>
-            <p class="card-text">La comida que
-              ya conoces
-              al mejor precio</p>
-            <a href="#" class="btn btn-primary d"><button>Busca tu platillo favorito <input type="submit" value="Buscar"></button></a>
-            <br>
-            <a href="#" class="btn btn-primary emoji">
-              <ul>
-                <li><i class="fab fa-facebook"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-instagram"></i></li>
-              </ul>
-            </a>
+        <a class="navbar-brand hy" href="#">Fonditas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex align-items-center justify-content-center"
+          id="navbarSupportedContent">
+          <ul class="d-flex align-items-center justify-content-center navbar-nav nadir gap-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Nosatros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fonditas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mapa</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inscribirse</a>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex align-items-center justify-content-end">
+          <button class="btn btn-outline-success d-flex align-items-center justify-content-center adan"
+            type="submit">Inicia Sesion</button>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart rare"></i></a>
+          </li>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <!-- HEADER END -->
+  <!-- SECTION 1 START -->
+  <section>
+    <div class="container">
+      <div class="card jer">
+        <div class="card-body">
+          <h5 class="card-title">De tu fonda favorita</h5>
+          <p class="card-text">La comida que
+            ya conoces
+            al mejor precio</p>
+          <a href="#" class="btn btn-primary d"><button>Busca tu platillo favorito <input type="submit"
+                value="Buscar"></button></a>
+          <br>
+          <a href="#" class="btn btn-primary emoji">
+            <ul>
+              <li><i class="fab fa-facebook"></i></li>
+              <li><i class="fab fa-twitter"></i></li>
+              <li><i class="fab fa-instagram"></i></li>
+            </ul>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION 1 END -->
+  <!-- SECTION 2 START -->
+  <section>
+    <div class="card  d-flex align-items-center justify-content-center lep">
+      <div class="card-body">
+        <h5 class="card-title">Categorias</h5>
+        <h2 class="card-text">Las favoritas</h2>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION 2 END -->
+  <!-- SECTION 3 START -->
+  <section>
+    <div class="container d-flex gap-4 align-items-center justify-content-center mt-5 tert">
+      <div class="card mal">
+        <a href="#"><i class="fas fa-pizza-slice"></i> <sup>42</sup></a>
+        <div class="card-body">
+          <h5 class="card-title">Pizza<br>Desde $60</h5>
+        </div>
+      </div>
+      <div class="card mal">
+        <span><a href="#"><i class="fas fa-utensils"></i><sup>35</sup></a></span>
+        <div class="card-body">
+          <span>
+            <h5 class="card-title at">Sushi <br>Desde $50</h5>
+          </span>
+        </div>
+      </div>
+
+      <div class="card mal">
+        <a href="#"><i class="fas fa-hamburger"></i><sup>28</sup></a>
+        <div class="card-body">
+          <h5 class="card-title">Hamburguesas <br>Desde $50</h5>
+        </div>
+      </div>
+
+      <div class="card mal">
+        <a href="#"><i class="far fa-lemon"></i><sup>23</sup></a>
+        <div class="card-body">
+          <h5 class="card-title at">Veggie<br>Desde $50</h5>
+        </div>
+      </div>
+
+      <div class="card mal">
+        <a href="#"><i class="fas fa-soap"></i><sup>15</sup></a>
+        <div class="card-body">
+          <h5 class="card-title">Sopas <br>Desde $50</h5>
+        </div>
+      </div>
+
+      <div class="card mal">
+        <a href="#"><i class="fas fa-birthday-cake"></i><sup>9</sup></a>
+        <div class="card-body">
+          <h5 class="card-title at">Postres<br>Desde $50</h5>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- SECTION 3 END -->
+  <!-- SECTION 4 START -->
+  <section>
+    <div class="container d-flex gap-5 canavar">
+      <div class="card  d-flex mt-5 lap">
+        <div class="card-body">
+          <h5 class="card-title">Fonditas</h5>
+          <h2 class="card-text">Fondas cercanas</h2>
+          <p>Estás son las fondas que se encuentran cerca!</p>
+        </div>
+      </div>
+      <div class="card  d-flex adr">
+        <div class="card-body dr">
+          <h6>Ver todas</h6>
+          <h5>
+            < </h5>
+              <h5> > </h5>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- SECTION 4 END -->
+  <!-- SECTION 5 START -->
+  <section>
+    <div class="container d-flex gap-4 align-items-center justify-content-center mt-5 tert">
+      <div class="card laf">
+        <img src="assets/img/Rectangle.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Doña Laura</h5>
+          <div class="faas">
+            <h5 class="card-title at">20-30 min</h5>
+            <h6>Fonditas</h6>
+          </div>
+        </div>
+      </div>
+      <div class="card laf">
+        <img src="assets/img/Rectangle (1).png" alt="">
+        <div class="card-body">
+          <h5 class="card-title at">Rosa Cafe</h5>
+          <div class="faas">
+            <h5 class="card-title at">-45 min</h5>
+            <h6>Lonchería</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="card laf">
+        <img src="assets/img/Rectangle (2).png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Le cottidiene</h5>
+          <div class="faas">
+            <h5 class="card-title at">15-20 min</h5>
+            <h6>Sushi</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="card laf">
+        <img src="assets/img/Rectangle (3).png" alt="">
+        <div class="card-body">
+          <h5 class="card-title at">Querreque</h5>
+          <div class="faas">
+            <h5 class="card-title at">-50 min</h5>
+            <h6>Vegies</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- SECTION 5 END -->
+  <!-- SECTION 6 START -->
+  <section>
+    <div class="contanier mt-5 d-flex align-items-center justify-content-center gap-4">
+      <div class="card w-48 per">
+        <img src="assets/img/aa.png" class="card-img-top img1" alt="...">
+      </div>
+      <div class="card w-70 carder">
+        <div class="card-body gap-5">
+          <h5>Mapa</h5>
+          <h1>Encuentra en
+            el mapa las mejores
+            fondas</h1>
+          <h6>Encuentra las fondas cercanas por sí quieres hacer pick up directo en las tiendas. </h6>
+          <div class="container mt-5">
+            <input type="search" value="Tu código postal" class="ara">
+            <input type="submit" value="Buscar en maps">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6 END -->
+  <!-- SECTION 7 START -->
+  <section>
+    <div class="container d-flex gap-5 canavar">
+      <div class="card  d-flex mt-5 lap">
+        <div class="card-body">
+          <h5 class="card-title">Fonditas</h5>
+          <h2 class="card-text">Los mejores menús</h2>
+          <p>Aquí están los mejores menús de la semana, y decide que vas a pedir </p>
+        </div>
+      </div>
+      <div class="card  d-flex adr">
+        <div class="card-body dr">
+          <h6>Ver todas</h6>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- SECTION 7 END -->
+  <!-- SECTION 8 START -->
+  <section>
+    <div class="container d-flex gap-3 aoo">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/Rectangle (4).png" class="img-fluid rounded-start img2" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Hot cakes</h5>
+              <h2 class="card-text">Hot caketerías</h2>
+              <p class="card-text"><small class="text-muted">Incluye dos toppics</small></p>
+              <div class="faas d-flex gap-5">
+                <h5 class="card-title at">20-30 min</h5>
+                <h6 class="as">Desde $70</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/Rectangle (5).png" class="img-fluid rounded-start img2" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Pizza</h5>
+              <p class="card-text">Pizzería</p>
+              <p class="card-text"><small class="text-muted">Chingo de pzzas</small></p>
+              <div class="faas d-flex gap-5">
+                <h5 class="card-title at">-45 min</h5>
+                <h6 class="as">Desde $70</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION 8 END -->
+
+  <!-- SECTION 9 START -->
+  <section>
+    <div class="container d-flex gap-3 aoo">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/Rectangle (6).png" class="img-fluid rounded-start img2" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Sushi</h5>
+              <h2 class="card-text">Ensaladish</h2>
+              <p class="card-text"><small class="text-muted">Muchas frutas</small></p>
+              <div class="faas d-flex gap-5">
+                <h5 class="card-title at">30-40 min</h5>
+                <h6 class="as">Desde $70</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/Rectangle (7).png" class="img-fluid rounded-start img2" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Continental</h5>
+              <p class="card-text">Desayunos</p>
+              <p class="card-text"><small class="text-muted">Incluye huevo y tostadas</small></p>
+              <div class="faas d-flex gap-5">
+                <h5 class="card-title at">15-20 min</h5>
+                <h6 class="as">Desde $50</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION 9 END -->
+  <!-- SECTION 10 START -->
+  <section>
+    <section>
+      <div class="container d-flex gap-3 aoo">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/img/Rectangle (6).png" class="img-fluid rounded-start img2" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Hot cakes</h5>
+                <h2 class="card-text">Otros desayunos</h2>
+                <p class="card-text"><small class="text-muted">Incluye dos jugos y tocinito</small></p>
+                <div class="faas d-flex gap-5">
+                  <h5 class="card-title at">-20 min</h5>
+                  <h6 class="as">Desde $50</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/img/Rectangle (7).png" class="img-fluid rounded-start img2" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Pizza</h5>
+                <p class="card-text">Pastish</p>
+                <p class="card-text"><small class="text-muted">Una súper duper pasta</small></p>
+                <div class="faas d-flex gap-5">
+                  <h5 class="card-title at">10-20 min</h5>
+                  <h6 class="as">Desde $50</h6>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- SECTION 1 END -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  
-  </body>
+  </section>
+  <!-- SECTION 10 END -->
+  <!-- SECTION 10 START -->
+  <section>
+    <div class="contanier mt-5 d-flex align-items-center justify-content-center gap-4">
+      <div class="card w-48 per">
+        <img src="assets/img/bb.png" class="card-img-top img1" alt="...">
+      </div>
+      <div class="card w-70 carder">
+        <div class="card-body gap-5">
+          <h5>Fondas</h5>
+          <h1>Sube tu fonda 
+            a fonditas y duplica
+            tus ingresos </h1>
+          <h6> Inscríbete a nuestra plataforma y comienza a generar en estos momentos de crísis</h6>
+            <input type="submit" value="Subir mi fonda" class="contanier mt-4">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION 10 END -->
+  <!-- SECTION 11 START -->
+  <section>
+    <div class="container mt-5 d-flex pas">
+      <div class="text">
+        <h1>Es tiempo de 
+          ayudarnos,
+          ¿Te unes?</h1>
+      </div>
+      <div>
+        <img src="assets/img/cc.png" class="img3" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- SECTION 11 END -->
+  <!-- SECTION 12 START -->
+  <footer class="nara">
+    <div class="container dajl d-flex">
+      <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">¿Te apasiona ayudar
+          a tu comunidad?</h2>
+        <h1 class="card-text">Fonditas</h1>
+
+        <a href="#" class="btn btn-primary emoji">
+          <ul>
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+          </ul>
+        </a>
+      </div>
+    </div>
+    <div>
+      <div class="card border-primary" >
+        <div class="card-header vay">Menu</div>
+        <div class="card-body text-primary tar">
+          <h5 class="card-title mane">Nasatras</h5>
+          <p class="card-text mane">Fonditas</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card border-primary" >
+        <div class="card-header hay"></div>
+        <div class="card-body text-primary tar">
+          <h6 class="card-title mane">mapa</h6>
+          <p class="card-text mane">Subir</p>
+        </div>
+    </div>
+    </div>
+    <div class="card border-primary" >
+      <div class="card-header hay"></div>
+      <div class="card-body text-primary tar">
+        <h5 class="card-title mane">Subcribete</h5>
+        <input type="email" value="Tu e-mail">
+      </div>
+  </div>
+    </div> 
+      
+  </footer>
+  <!-- SECTION 12 END -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
 </html>
