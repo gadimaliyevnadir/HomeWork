@@ -266,14 +266,19 @@ footer{
     padding-bottom: 150px;
     display: flex;
     @media (max-width: 700px) {
+
         .dajl{
             flex-direction: column;
+            margin-top: 200px;
+            margin-right: 100px;
         }
         .card{
             flex-direction: column;
         }
         .nara{
             flex-direction: column;
+            width: 100%;
+            padding: 0;
         }
     }
     .card{

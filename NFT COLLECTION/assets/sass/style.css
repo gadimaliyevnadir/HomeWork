@@ -222,4 +222,12 @@ footer .nadir li a {
             flex-direction: column;
   }
 }
+
+.white1 {
+  background-color: white !important;
+}
+
+.black1 {
+  color: black !important;
+}
 /*# sourceMappingURL=style.css.map */
