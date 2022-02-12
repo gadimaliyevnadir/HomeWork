@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 50px auto;
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .header {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .header button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: brown;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container .content {
+  background-image: url("./../img/Untitled-2.jpg");
+  width: 1000px;
+  margin: 1rem;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.container .content .door {
+  position: absolute;
+  top: 375px;
+  left: 270px;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.container .content .doorImg {
+  width: 147px;
+}
+
+.container .content .Open {
+  -webkit-animation-name: open;
+          animation-name: open;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes open {
+  from {
+    top: 375px;
+    left: 270px;
+  }
+  to {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+}
+
+@keyframes open {
+  from {
+    top: 375px;
+    left: 270px;
+  }
+  to {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+}
+
+.container .content .close {
+  -webkit-animation-name: close;
+          animation-name: close;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes close {
+  from {
+    top: 105px;
+    left: 270px;
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes close {
+  from {
+    top: 105px;
+    left: 270px;
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+.container .content .car {
+  width: 300px;
+  z-index: 5;
+  position: absolute;
+  top: 550px;
+  left: -50px;
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+}
+
+.container .content .car.goGarage {
+  -webkit-animation-name: goGarage;
+          animation-name: goGarage;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes goGarage {
+  from {
+    top: 550px;
+    left: -50px;
+  }
+  to {
+    top: 370px;
+    left: 200px;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@keyframes goGarage {
+  from {
+    top: 550px;
+    left: -50px;
+  }
+  to {
+    top: 370px;
+    left: 200px;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+.container .content .carImg {
+  width: 100%;
+}
+
+.container .content .window {
+  width: 45px;
+  height: 60px;
+  position: absolute;
+}
+
+.container .content .light {
+  background: rgba(255, 196, 0, 0.2);
+}
+
+.container .content .window-1 {
+  top: 270px;
+  left: 367px;
+}
+
+.container .content .window-2 {
+  top: 270px;
+  left: 487px;
+}
+
+.container .content .window-3 {
+  top: 270px;
+  left: 607px;
+}
+
+.container .content .window-4 {
+  top: 270px;
+  left: 727px;
+}
+
+.container .content .window-5 {
+  top: 403px;
+  left: 635px;
+}
+
+.container .content .window-6 {
+  top: 403px;
+  left: 735px;
+}
+
+.container .content .smoke {
+  width: 250px;
+  position: absolute;
+  left: 390px;
+  top: 20px;
+  opacity: 0;
+}
+
+.container .content .smoke.active {
+  opacity: 1;
+}
+
+.container .content .smokeImg {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
